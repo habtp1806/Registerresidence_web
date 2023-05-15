@@ -1,0 +1,36 @@
+
+.form-login {
+    width: 50%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    padding: 30px;
+    background: #fff;
+    margin: auto;
+}
+
+.form-login #btn-login {
+    background: #50d8af;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.form-login #btn-login:hover {
+    background: #2dc899
+}
+
+/* register */
+.form_row {
+    display: flex;
+}
+.fGender , 
+.fBday  {
+    width: 50%;
+}
+.fGender {
+    margin-right: 10px;
+}
+.selectBox {
+    width: 100%;
+}
